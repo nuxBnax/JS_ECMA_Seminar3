@@ -176,10 +176,7 @@ function secondsToHms(second) {
     const m = Math.floor(second % 3600 / 60);
     const s = Math.floor(second % 3600 % 60);
 
-    const hDisplay = h > 0 ? h + " :" : "00";
-    const mDisplay = m > 0 ? m + " :" : "00";
-    const sDisplay = s;
-    return `${hDisplay.padStart(4, 0)} ${mDisplay.padStart(4, 0)} ${sDisplay.toString().padStart(2, 0)}`; 
+    return `${h.toString().padStart(2, 0)}:${m.toString().padStart(2, 0)}:${s.toString().padStart(2, 0)}`; 
 }
 
 console.log(secondsToHms(20));
