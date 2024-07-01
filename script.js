@@ -180,3 +180,8 @@ function secondsToHms(second) {
 }
 
 console.log(secondsToHms(20));
+
+
+https://learn.javascript.ru/error-handling
+https://learn.javascript.ru/async
+https://learn.javascript.ru/network
